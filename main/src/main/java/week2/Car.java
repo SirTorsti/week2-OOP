@@ -21,6 +21,9 @@ public class Car {
 
     public int decelerate(int y) {
         this.speed -= y;
+        if (this.speed < 0) {
+            this.speed = 0;
+        }
         return this.speed;
     }
 }
