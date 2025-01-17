@@ -11,7 +11,7 @@ public class Car {
     }
 
     public void status() {
-        System.out.print("Auto: " + this.brand + " " + this.model + " nopeus: " + this.speed + " km/h\n");
+        System.out.print("Auto: " + this.brand + ", " + this.model + " nopeus: " + this.speed + " km/h\n");
     }
 
     public int accelerate(int x) {
